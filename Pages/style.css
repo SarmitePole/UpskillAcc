@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* nav {
+    border-radius: 15%;
+    border: solid red 1px;
+} */
+
+header {
+    width: 50%;
+    background-color: #f6aeae;
+    padding: 1rem;
+    border-radius: 10mm;
+    display: flex;
+    align-content: center;
+}
+
+/* Dark button color: #363636 
+Red button color: #C93333 
+Dark text color: #000000 
+Bright text color: 
+#FFFFFF Background color: 
+#D9D9D9 
+Text font (style): 
+Inter (For adding the font to your html you should link it in the head <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' >)  */
+
+.container {
+    width: 50%;
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 10mm;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3mm;
+    text-align: left;
+}
+
+.row .container {
+    margin-top: 1em;
+    background-color: #363636;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 4mm;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a:visited,
+nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #999;
+
+}
+
+img {
+    border: solid 1px red;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 6px;
+
+}
+
+
+nav>ul {
+    display: inline;
+    padding: 0;
+
+}
+
+nav>ul>li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+main {
+
+    padding-top: 3em;
+    padding-bottom: 3em;
+
+
+}
+
+/* 
+footer {
+    padding: 15px;
+}
+
+aside,
+article {
+    padding: 2em;
+}
+
+aside {
+    text-align: center;
+}
+
+article {
+    width: 75%;
+}
+
+.columns {
+    display: flex;
+} */
+
+/* 
+@media only screen and (min-width: 768px) {
+    main {
+        display: flex;
+    }
+
+    aside {
+        margin-left: 2%;
+    }
+
+    .columns-desktop {
+        display: flex;
+    }
+} */
+
+/* Login */
+/* h1 {
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+.banner {
+    max-width: 100%;
+}
+
+.sub-title {
+    background-color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+} */
