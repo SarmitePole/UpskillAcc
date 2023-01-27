@@ -8,70 +8,79 @@ body {
     background-color: #D9D9D9;
     display: flex;
     flex-direction: column;
-
+    align-items: center;
+    gap: 1rem;
 }
 
+
+
+
+
+header {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center
+}
 h1 {
-    text-align: center;
     color: white;
     margin: 10px;
 }
-
-h4 {
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-/* nav {
-    border-radius: 15%;
-    border: solid red 1px;
-} */
-
-header {
-    width: 50%;
-    background-color: #f6aeae;
-    padding: 1rem;
+nav {
+    width: 100%;
+    text-align:left;
+    background-color: #000000 ;
     border-radius: 10mm;
-    display: flex;
-    align-content: center;
+    padding: 1rem;
 }
 
 /* Dark button color: #363636 
 Red button color: #C93333 
 Dark text color: #000000 
-Bright text color: 
-#FFFFFF Background color: 
-#D9D9D9 
+Bright text color: #FFFFFF 
+Background color: #D9D9D9 
 Text font (style): 
 Inter (For adding the font to your html you should link it in the head <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet' >)  */
 
+main {
+    width: 85%;
+    border-radius: 10mm;
+    display: flex;
+}
+
 .container {
-    width: 50%;
     background-color: white;
-    padding: 20px 60px;
+    padding: 25px 60px;
     border-radius: 10mm;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red 1px; */
+}
+
+h4 {
+    margin-bottom: 15px;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    column-gap: 3mm;
+    column-gap: 1.2rem;
     text-align: left;
+    align-items: center;
 }
 
 .row .container {
     margin-top: 1em;
     background-color: #363636;
     color: white;
-    padding: 0.3rem;
+    padding: 0.3rem 1.2rem ;
     border-radius: 4mm;
     text-align: center;
+    /* border: solid red 1px; */
 }
 
-nav {
-    text-align: center;
-}
+
 
 nav a:visited,
 nav a:link {
@@ -86,7 +95,8 @@ body {
 }
 
 img {
-    border: solid 1px red;
+    height: auto;
+    max-width: 30%;
 }
 
 li {
@@ -107,64 +117,3 @@ nav>ul>li {
     list-style: none;
     margin: 0 5px 0 5px;
 }
-
-main {
-
-    padding-top: 3em;
-    padding-bottom: 3em;
-
-
-}
-
-/* 
-footer {
-    padding: 15px;
-}
-
-aside,
-article {
-    padding: 2em;
-}
-
-aside {
-    text-align: center;
-}
-
-article {
-    width: 75%;
-}
-
-.columns {
-    display: flex;
-} */
-
-/* 
-@media only screen and (min-width: 768px) {
-    main {
-        display: flex;
-    }
-
-    aside {
-        margin-left: 2%;
-    }
-
-    .columns-desktop {
-        display: flex;
-    }
-} */
-
-/* Login */
-/* h1 {
-    font-size: 3em;
-    margin-top: 0.5em;
-}
-
-.banner {
-    max-width: 100%;
-}
-
-.sub-title {
-    background-color: #fff;
-    font-size: 1.5em;
-    padding: 10px;
-} */
