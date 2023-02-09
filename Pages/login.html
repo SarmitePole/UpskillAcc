@@ -5,30 +5,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Login
+    <title>Pages | Login
     </title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="yourMovies.html">Your Movies</a></li>
-                <li><a href="profile.html">Profile</a></li>
-            </ul>
-        </nav>
+        <h1>Movie rental</h1>
     </header>
     <main>
-        <article>
-            <h1>Login Page</h1>
-            <p class="sub-title">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet totam natus eligendi necessitatibus optio
-                voluptatum facilis, repudiandae magni. Enim laborum obcaecati illo voluptatem distinctio temporibus
-                sapiente alias magni suscipit veritatis!
-            </p>
-        </article>
+        <div class="login-container">
+            <div class="input">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="email">
+            </div>
+            <div class="input"><label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="password">
+            </div>
+            <div class="row">
+                <div class="singleButton">Sign in</div>
+            </div>
+        </div>
+        <br />
+        <div class="login-container">
+            <div class="input">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="name">
+            </div>
+            <div class="input">
+                <label for="name">Surname:</label>
+                <input type="text" id="surname" name="surname" placeholder="surname">
+            </div>
+            <div class="input">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="email">
+            </div>
+            <div class="input">
+                <label for="email">Email again:</label>
+                <input type="text" id="emailAgain" name="emailAgain" placeholder="email">
+            </div>
+            <div class="input"><label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="password">
+            </div>
+            <div class="input"><label for="password">Password:</label>
+                <input type="password" id="passwordAgain" name="passwordAgain" placeholder="password">
+            </div>
+            <div class="row">
+                <div class="singleButton">Register</div>
+            </div>
+        </div>
+
     </main>
     <footer>
     </footer>

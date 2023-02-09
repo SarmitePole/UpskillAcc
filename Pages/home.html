@@ -5,28 +5,65 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Home</title>
+    <title>Pages | Home</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
     <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
 
 <body>
     <header>
+        <h1>Movie rental</h1>
         <nav>
             <ul>
-                <li><a href="login.html">Login</a></li>
+                <li class="active"><a href="home.html">Home</a></li>
                 <li><a href="yourMovies.html">Your Movies</a></li>
                 <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="slider.html">Slider</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <article>
-            <h1>Home</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eum, tenetur saepe accusamus ea soluta
-                dolor perferendis sed quasi, ad rem nisi at nobis aliquam deleniti harum ducimus qui architecto.
-            </p>
-        </article>
+        <div class="container">
+            <h3>Available Movies</h3>
+            <table>
+                <tr class="titleRow">
+                    <th>Name</th>
+                    <th>Genre</th>
+                    <th>Price for 12h</th>
+                    <th>Is in stock</th>
+                    <th></th>
+                </tr>
+
+                <tr class="itemsRow">
+                    <td>Batman</td>
+                    <td>Action</td>
+                    <td>4.55$</td>
+                    <td><img src="../assets/success.png" alt="success" /></td>
+                    <td class="itemDecision">Rent</td>
+                </tr>
+                <tr class="itemsRow">
+                    <td>Batman</td>
+                    <td>Action</td>
+                    <td>4.55$</td>
+                    <td><img src="../assets/success.png" alt="success" /></td>
+                    <td class="itemDecision">Rent</td>
+                </tr>
+                <tr class="itemsRow">
+                    <td>Batman</td>
+                    <td>Action</td>
+                    <td>4.55$</td>
+                    <td><img src="../assets/delete.png" alt="success" /></td>
+                    <td class="itemDecision">Rent</td>
+                </tr>
+
+
+
+            </table>
+
+
+        </div>
+
     </main>
     <footer>
     </footer>
